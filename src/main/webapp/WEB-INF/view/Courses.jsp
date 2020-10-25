@@ -14,7 +14,8 @@
 
 <body id="page-top">
     <div id="wrapper">
-        <jsp:include page="../components/NavBar.jsp" />
+        <%! String pageName="Courses"; %>
+        <%@include file="../components/NavBar.jsp"%>
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                 <jsp:include page="../components/NavBar-Top.jsp"/>

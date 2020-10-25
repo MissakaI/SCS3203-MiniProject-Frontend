@@ -32,7 +32,8 @@
             </div>
         </nav>--%>
 
-        <jsp:include page="../components/NavBar.jsp" />
+        <%! String pageName="Classes"; %>
+        <%@include file="../components/NavBar.jsp"%>
 
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">

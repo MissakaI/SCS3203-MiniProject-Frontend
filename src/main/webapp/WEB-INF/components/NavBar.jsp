@@ -6,10 +6,10 @@
         </a>
         <hr class="sidebar-divider my-0">
         <ul class="nav navbar-nav text-light" id="accordionSidebar">
-            <li class="nav-item" role="presentation"><a class="nav-link" href="Students"><i class="fas fa-user-friends"></i><span>Students</span></a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="Teachers"><i class="fas fa-user-tie"></i><span>Teachers</span></a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" href="Courses"><i class="fas fa-book-open"></i><span>Subjects</span></a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link active" href="Classes"><i class="fas fa-chalkboard-teacher"></i><span>Classes</span></a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link <%=pageName.equals("Students")?"active":""%>" href="Students"><i class="fas fa-user-friends"></i><span>Students</span></a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link <%=pageName.equals("Teachers")?"active":""%>" href="Teachers"><i class="fas fa-user-tie"></i><span>Teachers</span></a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link <%=pageName.equals("Courses")?"active":""%>" href="Courses"><i class="fas fa-book-open"></i><span>Subjects</span></a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link <%=pageName.equals("Classes")?"active":""%>" href="Classes"><i class="fas fa-chalkboard-teacher"></i><span>Classes</span></a></li>
         </ul>
         <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
     </div>
